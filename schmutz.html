@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="images/home_page_images/web_icon.png" type="image/gif" sizes="20x20">
+    <title>Schmutz</title>
+</head>
+<style>
+    body {
+        background-color: black;
+        text-decoration-color: white;
+    }
+
+    .title {
+        float: left;
+        padding-top: 1%;
+        padding-left: 5%;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 600;
+        font-size: 100%;
+        color: white;
+    }
+
+    .motiondesigner {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 70%;
+        padding-bottom: 10px;
+        position: relative;
+        animation-name: motiona;
+        animation-duration: 8s;
+        animation-iteration-count: infinite;
+        color: white;
+
+    }
+
+    #motiondesigner {
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes motiona {
+        0% {
+            bottom: 20px;
+            opacity: 0.0;
+        }
+
+        5% {
+            bottom: 0px;
+            opacity: 0.6;
+        }
+
+        15% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        20% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        40% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        45% {
+            bottom: -5px;
+            opacity: 0.2;
+        }
+
+        50% {
+            bottom: -10px;
+            opacity: 0.0;
+        }
+
+        100% {
+            bottom: -10px;
+            opacity: 0.0;
+        }
+    }
+
+    .constantly {
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 300;
+        font-size: 70%;
+        padding-bottom: 10px;
+        position: relative;
+        animation-name: constantlya;
+        animation-duration: 8s;
+        animation-delay: -4s;
+        animation-iteration-count: infinite;
+        color: white;
+
+    }
+
+    #constantly {
+        animation-timing-function: ease-in-out;
+    }
+
+    @keyframes constantlya {
+        0% {
+            bottom: 20px;
+            opacity: 0.0;
+        }
+
+        5% {
+            bottom: 0px;
+            opacity: 0.6;
+        }
+
+        15% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        20% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        40% {
+            bottom: 0px;
+            opacity: 1;
+        }
+
+        45% {
+            bottom: -5px;
+            opacity: 0.2;
+        }
+
+        50% {
+            bottom: -10px;
+            opacity: 0.0;
+        }
+
+        100% {
+            bottom: -10px;
+            opacity: 0.0;
+        }
+    }
+
+    .container_row {
+        display: grid;
+    }
+
+    .layer1,
+    .layer2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+
+    #navbar {
+        overflow: hidden;
+        position: fixed;
+        background-color: black;
+        width: 100%;
+        z-index: 100;
+    }
+
+    #navbar a {
+        float: right;
+        margin-right: 2%;
+        display: block;
+        color: white;
+        text-align: center;
+        padding: 14px 40px;
+        padding-top: 35px;
+        padding-bottom: 20px;
+        text-decoration: none;
+        font-family: 'Open Sans', sans-serif;
+        font-weight: 500;
+        font-style: normal;
+        font-size: 13px;
+
+    }
+
+    #navbar a:hover {
+
+        text-decoration: underline;
+    }
+
+    #navbar a.active {
+        text-decoration: underline;
+        color: white;
+    }
+
+    #imagecontainer_Schmutz {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(3, 1fr);
+        grid-column-gap: 30px;
+        grid-row-gap: 30px;
+        width: 88vw;
+        height: 88vh;
+
+
+    }
+
+    .schmutz_content {
+        margin-left: 5%;
+    
+        padding-bottom: 5%;
+    }
+
+    .schmutzimage {
+        width: 100%;
+    }
+
+
+    .schmutz_text {
+
+        color: white;
+    }
+
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+
+    .insta {
+        width: 3%;
+    }
+    
+    h2 {
+   font-size: 18px;
+        color: white;
+}
+
+
+p {
+   font-size: 15px;  
+    color: white;
+}
+
+li {
+    font-size: 15px; 
+    color: white;
+}
+    a {
+  color: white;
+}
+    
+</style>
+
+<body>
+
+
+    <div id="navbar">
+        <a href="about.html">ABOUT</a>
+        <a class="active" href="schmutz.html">SCHMUTZ</a>
+        <a href="commercial.html">COMMERCIAL</a>
+        <a href="index.html">PROJECTS</a>
+
+
+        <div class="title">ALISTAIR KINCAID
+            <div class="container_row">
+                <div class="layer1">
+                    <div class="motiondesigner">MOTION DESIGNER</div>
+                </div>
+                <div class="layer2">
+                    <div class="constantly">CONSTANTLY COLLECTING</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="schmutz_content">
+         <div class="gridtohu">
+            <div class="about">
+                <h2>Schmutz</h2>
+                <p>Schmutz is my personal illustration pesona/style. This is a style that consists of squiggly lines and quirky little characters and plants that always seem to have a habit of filling up the page. Schmutz is a yiddish word for dirt. Although this definition may sound like an unpleasant word to describe ones work, I like to redefine Schmutz as a description for &apos;stuff and things&apos;.
+                                </p>
+            </div>
+            <div class="extra">
+                <h2>Instagram</h2>
+                <ul.b>
+                    <li><a href="https://www.instagram.com/schmutz_doozies/" target="_blank">@schmutz_doozies</a>
+                       </li>
+                </ul.b>
+            </div>
+        </div>
+        <div id="imagecontainer_Schmutz">
+            <img class="schmutzimage" src="images/Schmutz_images/Schmutz_heads.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_10.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_14.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_15.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_12.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_11.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/Schmutz_boyz_blue_2.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/Schmutz_boyz_blue.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_5.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_6.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_7.jpg">
+            <img class="schmutzimage" src="images/Schmutz_images/schumtz_gallery_8.jpg">
+        </div>
+    </div>
+    <footer>
+        <p></p>
+    </footer>
+
+
+</body>
+
+</html>
